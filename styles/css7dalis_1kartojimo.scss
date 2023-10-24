@@ -1,0 +1,38 @@
+$primary-font: Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+    color:white;
+    text-align: center;
+}
+.gallery {
+    font-family: $primary-font;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 100%;
+    padding: 2em;
+
+    &__item {
+        width: 33%;
+        margin-bottom: 1em;
+    }
+        &__image {
+            border-radius: 1em;
+            width: 100%;
+            height: 100%;
+            transition: opacity 0.3s;
+        
+        &:hover {
+            opacity: 1;
+        }
+
+        &:not(:hover) {
+            opacity: 0.5;
+        }
+        
+        }
+}

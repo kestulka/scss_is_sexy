@@ -1,0 +1,25 @@
+// uzvedus cursor ant button jo remelis nusidazo kita spalva, pasikeicia fono ir teksto spalva
+body{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.button{
+    background-color: mediumslateblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 1em;
+    border: 3px solid white;
+    padding: 2em 6em;
+    font-size: 1em;
+
+    &:hover{
+        border-color: crimson;
+        color: purple;
+        background-color: skyblue;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+}

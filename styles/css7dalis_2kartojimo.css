@@ -1,0 +1,10 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.button:hover {
+  background-color: #b3b3b3;
+  font-weight: bolder;
+  font-size: 1.25em;
+}/*# sourceMappingURL=css7dalis_2kartojimo.css.map */

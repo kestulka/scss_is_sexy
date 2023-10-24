@@ -1,0 +1,24 @@
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.button {
+  background-color: mediumslateblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 1em;
+  border: 3px solid white;
+  padding: 2em 6em;
+  font-size: 1em;
+}
+.button:hover {
+  border-color: crimson;
+  color: purple;
+  background-color: skyblue;
+  font-size: 1.5em;
+  font-weight: bolder;
+}/*# sourceMappingURL=css7dalis_3kartojimo.css.map */
